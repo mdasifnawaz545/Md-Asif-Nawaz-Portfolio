@@ -8,7 +8,7 @@ import { SiC, SiCplusplus, SiExpress, SiMaterialdesign, SiMongodb, SiMysql, SiNe
 function TechStack() {
     const webSkills = [{ name: "HTML", icon: <FaHtml5 /> },{ name: "CSS", icon: <FaCss3 /> },{ name: "Bootstrap", icon: <FaBootstrap /> },{ name: "JavaScript", icon: <FaJs /> },{ name: "Node.js", icon: <FaNodeJs/> },{ name: "Express.js", icon: <SiExpress /> },{ name: "MySQL", icon: <SiMysql /> },{ name: "MongoDB", icon: <SiMongodb/> },{ name: "React.js", icon: <FaReact /> },{ name: "Material UI", icon: <SiMaterialdesign /> },{ name: "Next.js", icon: <SiNextdotjs /> },{ name: "TypeScript", icon: <SiTypescript /> },{ name: "Tailwind CSS", icon: <SiTailwindcss/> },{ name: "Shadcn", icon: <SiShadcnui /> },{ name: "Figma", icon: <FaFigma /> },{ name: "Postman", icon: <SiPostman /> },{ name: "C Language", icon: <SiC /> },{ name: "C++", icon: <SiCplusplus /> },{ name: "Java", icon: <FaJava/> }]
     return (
-        <section id='#skills' className=''>
+        <div className='p-4'>
             {/* <h1 className='text-blue-100 text-4xl text-center tracking-wide'>Development <span className='text-blue-300'>Skills</span></h1> */}
             <CoverDemo normalText='Development' animateText='Skills' />
             <div className='flex items-center justify-center gap-4 my-8 md:my-10 lg:my-12 md:gap-8 flex-wrap'>
@@ -17,7 +17,7 @@ function TechStack() {
                 }
             </div>
 
-        </section>
+        </div>
     )
 }
 
