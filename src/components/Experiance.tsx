@@ -18,7 +18,7 @@ function Experiance() {
                             className="bg-black border border-white/[0.1]
                              dark:bg-slate-900 text-blue-100 dark:text-white dark:border-slate-800 p-4 "
                         >
-                            <div className='text-blue-100 flex w-full items-center justify-start gap-4'>
+                            <div className='text-blue-100 flex w-full items-center justify-start gap-2 md:gap-4'>
                                 <div>
                                     <img className={`w-${work.width}`} src={work.thumbnail} alt={work.thumbnail} />
                                 </div>

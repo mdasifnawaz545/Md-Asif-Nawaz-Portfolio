@@ -8,7 +8,7 @@ import { FloatingNav } from './ui/floating-navbar'
 
 function Hero() {
     return (
-        <div className='pb-20 pt-36 min-h-screen flex flex-col items-center justify-center'>
+        <div className='pb-20 pt-36 min-h-screen flex flex-col items-center justify-start md:justify-center'>
 
             <div>
                 <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='silver' />
@@ -19,7 +19,7 @@ function Hero() {
                     <div className='md:scale-105 lg:scale-110'>
                         <h2 className='uppercase tracking-widest text-white md:text-sm text-xl text-center'>Welcome to the profile</h2>
                         <TextGenerateEffect className='text-center' words='Md Asif Nawaz' />
-                        <p className='text-white text-center tracking-wide text-md px-8 md:p-0'>
+                        <p className='text-white text-center tracking-wide text-md px-8 md:p-0 scale-90 md:scale-100'>
                             I&apos;m Md Asif Nawaz, A Full Stack Developer who love to build what you think.
                         </p>
                         <a href="#about" className='flex items-center justify-center my-4'>
