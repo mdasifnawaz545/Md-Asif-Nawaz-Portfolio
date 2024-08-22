@@ -6,7 +6,7 @@ function Experiance() {
     return (
         <div className='flex flex-col items-center justify-center gap-8'>
             <div>
-                <CoverDemo normalText={'My Work '} animateText={'Experiance'} />
+                <CoverDemo normalText={'My Work '} animateText={'Experience'} />
             </div>
             <div className='flex flex-wrap gap-4 my-4 md:my-6 lg:my-8 items-center justify-center'>
                 {
