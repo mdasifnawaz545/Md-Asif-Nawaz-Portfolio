@@ -6,8 +6,9 @@ export const projects = [
         title: "Wonderlust - Listing Places & Hotels",
         des: "WonderLust is a Website where you can add a new listing of Places, Hotels, resturants & many more.",
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723879046/Screenshot_2023-11-14_193941_wpca9v.png",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+        iconLists: ["/html.svg", "/tail.svg", "/js.svg", "/three.svg", "/fm.svg"],
         link: "https://github.com/mdasifnawaz545/WonderLust",
+        liveLink: "https://wonderlust-f7bu.onrender.com/",
         links: [
             {
                 title: "Home",
@@ -69,6 +70,7 @@ export const projects = [
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723913072/WhatsApp_Image_2024-08-15_at_20.17.22_4e8de257_g70fkc.jpg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
         link: "https://github.com/mdasifnawaz545/Realtime-Feedback-with-AI",
+        liveLink: "https://realtime-feedback.vercel.app/",
         links: [
             {
                 title: "Home",
@@ -130,8 +132,9 @@ export const projects = [
         title: "ELabs Official Website",
         des: "We built the entire front-end and backend of the official website of elabs with the entire web team of elabs .",
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723912751/Screenshot_2024-07-06_093229_tubvmq.png",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://github.com/adrianhajdin/iphone",
+        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+        link: "https://github.com/mdasifnawaz545/E_Labs_Official_Website",
+        liveLink: "https://e-labs-official-website.vercel.app/",
         links: [
             {
                 title: "Home",
@@ -193,6 +196,7 @@ export const projects = [
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723879025/Weather_Webapp_psr7jg.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
         link: "https://github.com/mdasifnawaz545/Weather-Webapp",
+        liveLink: "https://weather-zeta-beryl.vercel.app/",
         links: [
             {
                 title: "Home",
@@ -254,6 +258,7 @@ export const projects = [
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723912597/Screenshot_2024-02-15_004913_o5chll.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
         link: "https://github.com/mdasifnawaz545/Currency_Converter",
+        liveLink: "https://wonderlust-f7bu.onrender.com/",
         links: [
             {
                 title: "Home",
@@ -315,6 +320,7 @@ export const projects = [
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723879092/Screenshot_2024-06-20_093158_dkbhn3.png",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
         link: "https://github.com/mdasifnawaz545/Todo-React_LocalStorage",
+        liveLink: "https://main--jolly-dragon-fc3a9f.netlify.app/",
         links: [
             {
                 title: "Home",
@@ -367,7 +373,8 @@ export const projects = [
                     <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
                 ),
                 href: "#",
-            }]
+            }],
+       
     },
     {
         id: 7,
@@ -376,6 +383,7 @@ export const projects = [
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723912613/Screenshot_341_m6nogn.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
         link: "https://github.com/mdasifnawaz545/University_Management_System_GUI?tab=readme-ov-file",
+        liveLink: "https://github.com/mdasifnawaz545/University_Management_System_GUI/blob/main/README.md",
         links: [
             {
                 title: "Home",
@@ -437,6 +445,8 @@ export const projects = [
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723879080/Hotstar_jlwgj2.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
         link: "https://github.com/mdasifnawaz545/Hotstar-Clone-New",
+        liveLink: "https://7cngmk.csb.app/",
+
         links: [
             {
                 title: "Home",
@@ -498,6 +508,8 @@ export const projects = [
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723879060/Flipkart_y0r6yr.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
         link: "https://github.com/mdasifnawaz545/Flipkart-Clone-New",
+        liveLink: "https://3tnb8y.csb.app/",
+
         links: [
             {
                 title: "Home",

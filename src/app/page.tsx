@@ -11,27 +11,41 @@ import { HiOutlineSupport } from "react-icons/hi";
 import Education from "@/components/Education";
 import Projects from "@/components/Projects";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
-import { Form } from "@/components/Form";
+import { InfiniteMovingCardsDemo } from "@/components/Testimonials";
+import Contact from "@/components/Contact";
+import Experiance from "@/components/Experiance";
 
 export default function Home() {
   return (
     <main className="relative bg-[#000] flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-05">
       <div className="max-w-7xl w-full" >
         <FloatingNav navItems={[{ name: "Home", link: "#home", icon: <RiHomeSmile2Line /> }, { name: "About", link: "#about", icon: <MdOutlinePerson3 /> }, { name: "Projects", link: "#projects", icon: <MdOutlineWorkOutline /> }, { name: "Contact", link: "#contact", icon: <HiOutlineSupport /> }]} />
-        <Hero />
-        <section id="#about">
+        <section id="home">
+          <Hero />
+        </section>
+        <section id="about">
           <MacbookScrollDemo imgSrc={""} title="See In your Laptop not mine...!" badge={<FaA />} />
+        </section >
+        <section id="education">
+          <Education />
         </section>
-        <TechStack />
-        <Education />
-        <section>
-          <Projects/>
+        <section id="experiance">
+          <Experiance/>
         </section>
-        <section>
-          <InfiniteMovingCards items={[{quote:"asjdfasdklf",name:"kadsjfkdsf",title:"askdfdhsf"}]}/>
+        <section id="projects">
+          <Projects />
         </section>
-        <section>
-          <Form/>
+        <section id="skills">
+          <TechStack />
+        </section>
+        <section id="feedback">
+          <div>
+            <InfiniteMovingCardsDemo />
+          </div>
+        </section>
+        <section id="contact">
+          {/* <Form /> */}
+          <Contact/>
         </section>
       </div>
     </main>

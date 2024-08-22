@@ -2,15 +2,16 @@ import React from 'react'
 import { CoverDemo } from './ui/coverHeading'
 import { GlareCardDemo } from './ui/Card'
 import { SkillCard } from './ui/SkillCard'
-import { FaAccessibleIcon, FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact } from 'react-icons/fa6'
+import { FaAccessibleIcon, FaBootstrap, FaC, FaCss3, FaFigma, FaHtml5, FaJava, FaJs, FaNodeJs, FaReact } from 'react-icons/fa6'
+import { SiC, SiCplusplus, SiExpress, SiMaterialdesign, SiMongodb, SiMysql, SiNextdotjs, SiPostman, SiShadcnui, SiTailwindcss, SiTypescript } from 'react-icons/si'
 
 function TechStack() {
-    const webSkills = [{ name: "HTML", icon: <FaHtml5 /> },{ name: "CSS", icon: <FaCss3 /> },{ name: "Node.js", icon: <FaJs /> },{ name: "Express.js", icon: <FaReact/> },{ name: "JavaScript", icon: <FaHtml5 /> },{ name: "", icon: <FaHtml5 /> },{ name: "JavaScript", icon: <FaHtml5 /> },{ name: "", icon: <FaHtml5 /> },{ name: "JavaScript", icon: <FaHtml5 /> },{ name: "", icon: <FaHtml5 /> },{ name: "JavaScript", icon: <FaHtml5 /> },{ name: "", icon: <FaHtml5 /> },{ name: "JavaScript", icon: <FaHtml5 /> },{ name: "", icon: <FaHtml5 /> },{ name: "JavaScript", icon: <FaHtml5 /> },{ name: "", icon: <FaHtml5 /> }]
+    const webSkills = [{ name: "HTML", icon: <FaHtml5 /> },{ name: "CSS", icon: <FaCss3 /> },{ name: "Bootstrap", icon: <FaBootstrap /> },{ name: "JavaScript", icon: <FaJs /> },{ name: "Node.js", icon: <FaNodeJs/> },{ name: "Express.js", icon: <SiExpress /> },{ name: "MySQL", icon: <SiMysql /> },{ name: "MongoDB", icon: <SiMongodb/> },{ name: "React.js", icon: <FaReact /> },{ name: "Material UI", icon: <SiMaterialdesign /> },{ name: "Next.js", icon: <SiNextdotjs /> },{ name: "TypeScript", icon: <SiTypescript /> },{ name: "Tailwind CSS", icon: <SiTailwindcss/> },{ name: "Shadcn", icon: <SiShadcnui /> },{ name: "Figma", icon: <FaFigma /> },{ name: "Postman", icon: <SiPostman /> },{ name: "C Language", icon: <SiC /> },{ name: "C++", icon: <SiCplusplus /> },{ name: "Java", icon: <FaJava/> }]
     return (
-        <section id='#skills'>
+        <section id='#skills' className=''>
             {/* <h1 className='text-blue-100 text-4xl text-center tracking-wide'>Development <span className='text-blue-300'>Skills</span></h1> */}
             <CoverDemo normalText='Development' animateText='Skills' />
-            <div className='flex items-center justify-center gap-4 flex-wrap'>
+            <div className='flex items-center justify-center gap-4 md:gap-8 my-8 flex-wrap'>
                 {
                     webSkills.map((skill, index) => (<SkillCard key={index} skillName={skill.name} icon={skill.icon} />))
                 }

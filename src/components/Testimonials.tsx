@@ -2,14 +2,17 @@
 
 import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+import { CoverDemo } from "./ui/coverHeading";
 
 export function InfiniteMovingCardsDemo() {
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="-px-4 rounded-md flex gap-8 flex-col antialiased bg-transparent dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden pb-16">
+
+      <CoverDemo normalText='Love from beloved people ' animateText='Feedback' />
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
-        speed="slow"
+        speed="normal"
       />
     </div>
   );
@@ -18,31 +21,18 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "You did a great work as a part of web development team. You deserved this. Congratulations 🎉🎉",
+    name: "E Labs",
+    title: "KIIT University",
+    image:"https://res.cloudinary.com/dpqdgcipi/image/upload/v1724141416/FB_IMG_1724140917125-removebg-preview_treytf.png"
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
-  },
-  {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
-  },
-  {
-    quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
-  },
+      "Your dedication to the project is truly admirable. Your commitment sets a high standard for all of us!",
+    name: "Anish Mishra",
+    title: "Lead Coordinator E-Labs",
+    image:"https://res.cloudinary.com/dpqdgcipi/image/upload/v1724141416/FB_IMG_1724140917125-removebg-preview_treytf.png"
+    
+  }
+
 ];

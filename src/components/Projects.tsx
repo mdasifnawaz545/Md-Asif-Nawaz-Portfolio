@@ -7,6 +7,7 @@ import { IconBrandReact, IconHome } from '@tabler/icons-react';
 import { FloatingDock } from './ui/floating-dock';
 import { LampContainer, LampDemo } from './ui/lamp';
 import { motion } from 'framer-motion';
+import { CoverDemo } from './ui/coverHeading';
 type project = {
     id: number,
     title: string,
@@ -14,6 +15,7 @@ type project = {
     img: string,
     iconLists: string[],
     link: string,
+    liveLink:string,
     links: proj[]
 }
 type proj = {
@@ -25,9 +27,9 @@ type projects = project[]
 function Projects(): any {
 
     return (
-        <div className='mb-8'>
-            <div className='w-full text-5xl text-blue-100 uppercase text-center py-4 md:6xl lg:7xl'>
-               <h1>Projects</h1>
+        <div >
+            <div className='w-full text-5xl text-blue-100 uppercase text-center p-4 md:6xl lg:7xl'>
+            <CoverDemo normalText='Have a Look into my ' animateText='Projects' />
             </div>
             <div className='w-full flex items-center justify-center flex-wrap'>
                 {
@@ -36,9 +38,9 @@ function Projects(): any {
                         <div key={project.id} className="h-[25rem] flex items-center justify-center">
                             <PinContainer
                                 title={project.title}
-                                href={project.link}
+                                href={project.liveLink}
                             >
-                                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+                                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[22.5rem] ">
                                     <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                                         {project.title}
                                     </h3>
@@ -61,10 +63,14 @@ function Projects(): any {
                                                 ))
                                             }
                                         </div>
-                                        <div className='flex justify-center items-center gap-2'>Check Live&nbsp;<span className="relative flex h-3 w-3">
-                                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
-                                            <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
-                                        </span></div>
+                                        
+                                        <div className='flex justify-center items-center gap-2'>Check Live<span className="relative flex h-3 w-3">
+                                       
+                                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gray-400 opacity-75"></span>
+                                            <span className="relative inline-flex rounded-full h-3 w-3 bg-gray-500"></span>
+                                        </span>
+                                        
+                                        </div>
 
                                     </div>
                                 </div>

@@ -12,7 +12,7 @@ type props = {
 
 export function SkillCard({ skillName, icon }: props) {
     return (
-        <div className="flex justify-center text-center">
+        <div className="flex justify-center m-1 text-center">
             <HoverBorderGradient
                 containerClassName="rounded-lg border-none"
                 as="button"

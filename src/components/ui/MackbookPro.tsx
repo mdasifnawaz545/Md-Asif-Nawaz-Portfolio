@@ -1,6 +1,7 @@
 import React from "react";
 import { MacbookScroll } from "../ui/macbook-scroll";
 import Link from "next/link";
+import { CoverDemo } from "./coverHeading";
 
 type props={
     imgSrc:string,
@@ -11,11 +12,10 @@ type props={
 export function MacbookScrollDemo({imgSrc,title,badge}:props) {
   return (
     <div className="overflow-hidden dark:bg-[#0B0B0F] bg-transparent w-full">
+      <CoverDemo normalText={'About My '} animateText={'Profile'} />
       <MacbookScroll
         title={
-          <span>
-            {title}
-          </span>
+          ""
         }
         badge={
           <Link href="https://linkedin/mdasifnawaz">
