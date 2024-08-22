@@ -165,7 +165,7 @@ export const Lid = ({
         <img
           src="https://res.cloudinary.com/dpqdgcipi/image/upload/v1720237114/1676480037898_jypfgp.jpg"
           alt="Profile"
-          fill
+          
           className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full"
         />
       </motion.div>
