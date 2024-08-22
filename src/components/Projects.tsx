@@ -31,7 +31,7 @@ function Projects(): any {
             <div className='w-full text-5xl text-blue-100 uppercase text-center p-4 md:6xl lg:7xl'>
             <CoverDemo normalText='Have a Look into my ' animateText='Projects' />
             </div>
-            <div className='w-full flex items-center justify-center flex-wrap'>
+            <div className='w-full  my-4 md:my-6 lg:my-8  flex items-center justify-center flex-wrap gap-2'>
                 {
                     projects.map((project: project) => (
 
@@ -59,7 +59,7 @@ function Projects(): any {
                                         <div className='flex items-center justify-start scale-75 md:scale-90 gap-2'>
                                             {
                                                 project.iconLists.map((stack, index) => (
-                                                    <img src={stack} key={index} alt="" />
+                                                    <img src={stack} width={24} key={index} alt="" />
                                                 ))
                                             }
                                         </div>

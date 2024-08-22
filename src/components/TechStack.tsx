@@ -11,7 +11,7 @@ function TechStack() {
         <section id='#skills' className=''>
             {/* <h1 className='text-blue-100 text-4xl text-center tracking-wide'>Development <span className='text-blue-300'>Skills</span></h1> */}
             <CoverDemo normalText='Development' animateText='Skills' />
-            <div className='flex items-center justify-center gap-4 md:gap-8 my-8 flex-wrap'>
+            <div className='flex items-center justify-center gap-4 my-8 md:my-10 lg:my-12 md:gap-8 flex-wrap'>
                 {
                     webSkills.map((skill, index) => (<SkillCard key={index} skillName={skill.name} icon={skill.icon} />))
                 }

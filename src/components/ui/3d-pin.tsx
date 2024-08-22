@@ -1,8 +1,9 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+// import {Slider} from "best-slider-gallery"
 
 export const PinContainer = ({
   children,
@@ -27,6 +28,10 @@ export const PinContainer = ({
   const onMouseLeave = () => {
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
+
+  // useEffect(()=>{
+
+  // },[])
 
   return (
     <Link

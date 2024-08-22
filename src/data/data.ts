@@ -36,13 +36,14 @@ export const workExperience = [
     id: 1,
     title: "GeeksForGeeks KIIT Chapter",
     desc: "Full Stack Developer | Express Developer.",
-
+    width:"24",
     thumbnail: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724141416/images-removebg-preview_rrfonj.png",
   },
   {
     id: 2,
     title: "E-Labs KIIT",
     desc: "Asst.Lead | Web Development",
+    width:"24",
     thumbnail: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1719200986/Trasnparent12_1_d7siyr.png",
   }
 ];

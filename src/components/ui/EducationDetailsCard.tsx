@@ -23,7 +23,7 @@ export function EducationDetailsCard({ education: { college,
   year,
   logo } }: Props) {
   return (
-    <div className="w-full md:min-w-full flex p-4 py-4  bg-black border border-white/[0.2] rounded-[1.75rem] text-blue-100 border-blue-100 h-40">
+    <div className="w-full md:min-w-full flex p-4 py-4  bg-black border border-white/[0.1] rounded-[1.75rem] text-blue-100 border-blue-100 h-40">
       <div className="flex w-full items-start justify-between">
         <div className="">
           <h1 className="text-xl lg:text-2xl">{college}</h1>
