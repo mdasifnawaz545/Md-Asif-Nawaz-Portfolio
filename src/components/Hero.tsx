@@ -8,7 +8,7 @@ import { FloatingNav } from './ui/floating-navbar'
 
 function Hero() {
     return (
-        <div className='pb-20 pt-24 min-h-screen flex flex-col items-center justify-start md:justify-center'>
+        <div className='pb-20 pt-16 min-h-screen flex flex-col items-center justify-start md:justify-center'>
 
             <div>
                 <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='silver' />
