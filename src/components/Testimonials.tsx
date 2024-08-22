@@ -6,7 +6,7 @@ import { CoverDemo } from "./ui/coverHeading";
 
 export function InfiniteMovingCardsDemo() {
   return (
-    <div className="-px-4 rounded-md flex gap-8 flex-col antialiased bg-transparent dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden pb-16">
+    <div className="-px-4 rounded-md flex gap-8 flex-col antialiased bg-transparent dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden pb-12">
 
       <CoverDemo normalText='Love from beloved people ' animateText='Feedback' />
       <div className="my-4 md:my-6 lg:my-8 ">
