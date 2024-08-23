@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaDiscord, FaLinkedin } from 'react-icons/fa6'
+import { FaDiscord, FaInstagram, FaLinkedin } from 'react-icons/fa6'
 import ShimmerButton from './ui/ShimmerButton'
 import { FaGithubSquare } from 'react-icons/fa'
 
@@ -30,7 +30,7 @@ function Contact() {
                 <a href="https://www.instagram.com/mdasifnawaz/">
 
 
-                    <ShimmerButton title={''} position={'right'} icon={<FaDiscord />} />
+                    <ShimmerButton title={''} position={'right'} icon={<FaInstagram />} />
 
                 </a>
 
