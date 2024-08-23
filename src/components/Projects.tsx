@@ -16,13 +16,9 @@ type project = {
     iconLists: string[],
     link: string,
     liveLink:string,
-    links: proj[]
+    
 }
-type proj = {
-    title: string,
-    icon: React.ReactNode,
-    href: string,
-}
+
 type projects = project[]
 function Projects(): any {
 
