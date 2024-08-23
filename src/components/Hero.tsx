@@ -16,7 +16,7 @@ function Hero() {
             </div>
             <div className='flex justify-center relative mt-20 z-10'>
                 <div className='max-w-[90vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center -gap-8 lg:gap-2'>
-                    <div className='md:scale-105 lg:scale-110'>
+                    <div className='md:scale-105 scale-95 lg:scale-110'>
                         <h2 className='uppercase tracking-widest text-white md:text-sm text-xl text-center'>Welcome to the profile</h2>
                         <TextGenerateEffect className='text-center' words='Md Asif Nawaz' />
                         <p className='text-white text-center tracking-wide text-md px-8 md:p-0 scale-90 md:scale-100'>
