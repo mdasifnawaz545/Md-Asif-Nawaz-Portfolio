@@ -1,4 +1,3 @@
-import { IconBrandGithub, IconBrandReact, IconBrandX, IconExchange, IconNewSection, IconTerminal2 } from "@tabler/icons-react";
 
 export const projects = [
     {
@@ -9,59 +8,7 @@ export const projects = [
         iconLists: ["https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217991/html-5_fslkyr.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218002/css-3_iqi8kv.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217996/js_i4rg6e.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "icons8-express-js.svg","/mongodb-seeklogo.svg"],
         link: "https://github.com/mdasifnawaz545/WonderLust",
         liveLink: "https://wonderlust-f7bu.onrender.com/",
-        links: [
-            {
-                title: "Home",
-                icon: (
-                    <IconBrandReact className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
 
-            {
-                title: "Products",
-                icon: (
-                    <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Components",
-                icon: (
-                    <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Aceternity UI",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-
-                ),
-                href: "#",
-            },
-            {
-                title: "Changelog",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Twitter",
-                icon: (
-                    <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "GitHub",
-                icon: (
-                    <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            }]
     },
     {
         id: 2,
@@ -71,59 +18,7 @@ export const projects = [
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "/mongodb-seeklogo.svg"],
         link: "https://github.com/mdasifnawaz545/Realtime-Feedback-with-AI",
         liveLink: "https://realtime-feedback.vercel.app/",
-        links: [
-            {
-                title: "Home",
-                icon: (
-                    <IconBrandReact className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Products",
-                icon: (
-                    <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Components",
-                icon: (
-                    <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Aceternity UI",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-
-                ),
-                href: "#",
-            },
-            {
-                title: "Changelog",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Twitter",
-                icon: (
-                    <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "GitHub",
-                icon: (
-                    <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            }]
+        
 
     },
     {
@@ -135,59 +30,7 @@ export const projects = [
         iconLists: ["/re.svg", "/tail.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217996/js_i4rg6e.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png","icons8-express-js.svg","/mongodb-seeklogo.svg"],
         link: "https://github.com/mdasifnawaz545/E_Labs_Official_Website",
         liveLink: "https://e-labs-official-website.vercel.app/",
-        links: [
-            {
-                title: "Home",
-                icon: (
-                    <IconBrandReact className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Products",
-                icon: (
-                    <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Components",
-                icon: (
-                    <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Aceternity UI",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-
-                ),
-                href: "#",
-            },
-            {
-                title: "Changelog",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Twitter",
-                icon: (
-                    <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "GitHub",
-                icon: (
-                    <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            }]
+        
     },
     {
         id: 4,
@@ -197,59 +40,7 @@ export const projects = [
         iconLists: ["/re.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218002/HIapkjDx_400x400_mlyyqw.jpg","https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217996/js_i4rg6e.png"],
         link: "https://github.com/mdasifnawaz545/Weather-Webapp",
         liveLink: "https://weather-zeta-beryl.vercel.app/",
-        links: [
-            {
-                title: "Home",
-                icon: (
-                    <IconBrandReact className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Products",
-                icon: (
-                    <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Components",
-                icon: (
-                    <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Aceternity UI",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-
-                ),
-                href: "#",
-            },
-            {
-                title: "Changelog",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Twitter",
-                icon: (
-                    <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "GitHub",
-                icon: (
-                    <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            }]
+        
     },
     {
         id: 5,
@@ -259,59 +50,7 @@ export const projects = [
         iconLists: ["/re.svg", "/tail.svg","https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217996/js_i4rg6e.png"],
         link: "https://github.com/mdasifnawaz545/Currency_Converter",
         liveLink: "https://wonderlust-f7bu.onrender.com/",
-        links: [
-            {
-                title: "Home",
-                icon: (
-                    <IconBrandReact className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Products",
-                icon: (
-                    <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Components",
-                icon: (
-                    <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Aceternity UI",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-
-                ),
-                href: "#",
-            },
-            {
-                title: "Changelog",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Twitter",
-                icon: (
-                    <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "GitHub",
-                icon: (
-                    <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            }]
+        
     },
     {
         id: 6,
@@ -321,59 +60,7 @@ export const projects = [
         iconLists: ["/re.svg", "/tail.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217996/js_i4rg6e.png"],
         link: "https://github.com/mdasifnawaz545/Todo-React_LocalStorage",
         liveLink: "https://main--jolly-dragon-fc3a9f.netlify.app/",
-        links: [
-            {
-                title: "Home",
-                icon: (
-                    <IconBrandReact className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
 
-            {
-                title: "Products",
-                icon: (
-                    <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Components",
-                icon: (
-                    <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Aceternity UI",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-
-                ),
-                href: "#",
-            },
-            {
-                title: "Changelog",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Twitter",
-                icon: (
-                    <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "GitHub",
-                icon: (
-                    <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            }],
        
     },
     {
@@ -384,59 +71,7 @@ export const projects = [
         iconLists: ["https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218001/java_hhr8qi.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217999/mysql_fxqe7d.png"],
         link: "https://github.com/mdasifnawaz545/University_Management_System_GUI?tab=readme-ov-file",
         liveLink: "https://github.com/mdasifnawaz545/University_Management_System_GUI/blob/main/README.md",
-        links: [
-            {
-                title: "Home",
-                icon: (
-                    <IconBrandReact className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Products",
-                icon: (
-                    <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Components",
-                icon: (
-                    <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Aceternity UI",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-
-                ),
-                href: "#",
-            },
-            {
-                title: "Changelog",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Twitter",
-                icon: (
-                    <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "GitHub",
-                icon: (
-                    <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            }]
+        
     },
     {
         id: 8,
@@ -447,59 +82,7 @@ export const projects = [
         link: "https://github.com/mdasifnawaz545/Hotstar-Clone-New",
         liveLink: "https://7cngmk.csb.app/",
 
-        links: [
-            {
-                title: "Home",
-                icon: (
-                    <IconBrandReact className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Products",
-                icon: (
-                    <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Components",
-                icon: (
-                    <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Aceternity UI",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-
-                ),
-                href: "#",
-            },
-            {
-                title: "Changelog",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Twitter",
-                icon: (
-                    <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "GitHub",
-                icon: (
-                    <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            }]
+       
     },
     {
         id: 9,
@@ -510,58 +93,6 @@ export const projects = [
         link: "https://github.com/mdasifnawaz545/Flipkart-Clone-New",
         liveLink: "https://3tnb8y.csb.app/",
 
-        links: [
-            {
-                title: "Home",
-                icon: (
-                    <IconBrandReact className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Products",
-                icon: (
-                    <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Components",
-                icon: (
-                    <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "Aceternity UI",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-
-                ),
-                href: "#",
-            },
-            {
-                title: "Changelog",
-                icon: (
-                    <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-
-            {
-                title: "Twitter",
-                icon: (
-                    <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            },
-            {
-                title: "GitHub",
-                icon: (
-                    <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-                ),
-                href: "#",
-            }]
+       
     },
 ];
