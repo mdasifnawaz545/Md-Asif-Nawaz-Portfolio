@@ -2,6 +2,7 @@ import React from 'react'
 import { FaDiscord, FaInstagram, FaLinkedin } from 'react-icons/fa6'
 import ShimmerButton from './ui/ShimmerButton'
 import { FaGithubSquare } from 'react-icons/fa'
+import { AiFillInstagram } from 'react-icons/ai'
 
 function Contact() {
     return (
@@ -23,14 +24,14 @@ function Contact() {
 
                 <a href="https://github.com/mdasifnawaz545">
 
-                    <ShimmerButton title={''} position={'right'} icon={<FaGithubSquare />} />
+                    <ShimmerButton title={''} position={'right'} icon={<FaGithub />} />
 
                 </a>
 
                 <a href="https://www.instagram.com/mdasifnawaz/">
 
 
-                    <ShimmerButton title={''} position={'right'} icon={<FaInstagram />} />
+                    <ShimmerButton title={''} position={'right'} icon={<AiFillInstagram />} />
 
                 </a>
 
