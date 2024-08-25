@@ -31,7 +31,7 @@ function Contact() {
                 <a href="https://www.instagram.com/mdasifnawaz/">
 
 
-                    <ShimmerButton title={''} position={'right'} icon={<AiFillInstagram />} />
+                    <ShimmerButton title={''} position={'right'} icon={<FaInstagram />} />
 
                 </a>
 

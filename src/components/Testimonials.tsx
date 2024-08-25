@@ -34,7 +34,7 @@ const testimonials = [
       "Your dedication to the project is truly admirable. Your commitment sets a high standard for all of us!",
     name: "Anish Mishra",
     title: "Lead Coordinator E-Labs",
-    image: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724571022/Screenshot_2024-08-25_125904_fyw8ld.png"
+    image: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724318021/1712901512974_gw1mtf.jpg"
 
   }
 
