@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaDiscord, FaInstagram, FaLinkedin } from 'react-icons/fa6'
 import ShimmerButton from './ui/ShimmerButton'
-import { FaGithubSquare } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
 
 function Contact() {
