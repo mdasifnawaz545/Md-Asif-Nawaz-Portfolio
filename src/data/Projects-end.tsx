@@ -17,7 +17,7 @@ export const projects = [
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723913072/WhatsApp_Image_2024-08-15_at_20.17.22_4e8de257_g70fkc.jpg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "/mongodb-seeklogo.svg"],
         link: "https://github.com/mdasifnawaz545/Realtime-Feedback-with-AI",
-        liveLink: "https://realtime-feedback.vercel.app/",
+        liveLink: "https://realtime-feedback-md-asif-nawazs-projects.vercel.app/",
         
 
     },
