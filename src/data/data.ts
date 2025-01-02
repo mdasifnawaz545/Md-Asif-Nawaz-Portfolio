@@ -42,7 +42,7 @@ export const workExperience = [
   {
     id: 2,
     title: "E-Labs KIIT",
-    desc: "Asst.Lead | Web Development",
+    desc: "Team Lead | Web Development",
     width:"24",
     thumbnail: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1719200986/Trasnparent12_1_d7siyr.png",
   }
