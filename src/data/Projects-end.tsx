@@ -10,6 +10,16 @@ export const projects = [
         liveLink: "https://wonderlust-f7bu.onrender.com/",
 
     },
+        {
+        id: 1000,
+        title: "Recruitesy - Recruitment Management System",
+        des: "Recruitesy is a full-fledged web application designed to streamline the recruitment process within an organization.",
+        img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738384524/Recruitesy_wcajqd.png",
+       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "/mongodb-seeklogo.svg"],
+        link: "https://github.com/mdasifnawaz545/Recruitesy",
+        liveLink: "https://recruitesy-git-main-md-asif-nawazs-projects.vercel.app/",
+
+    },
     {
         id: 2,
         title: "Realtime Feedback - AI Integration",
