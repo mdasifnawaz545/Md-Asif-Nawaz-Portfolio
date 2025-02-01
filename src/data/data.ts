@@ -35,9 +35,9 @@ export const workExperience = [
   {
     id: 1,
     title: "GeeksForGeeks KIIT Chapter",
-    desc: "Full Stack Developer | Express Developer.",
+    desc: "Full Stack Developer | Express Developer",
     width:"24",
-    thumbnail: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724141416/images-removebg-preview_rrfonj.png",
+    thumbnail: "https://res.cloudinary.com/dpqdgcipi/image/upload/t_big image/v1724141416/images-removebg-preview_rrfonj.png",
   },
   {
     id: 2,
