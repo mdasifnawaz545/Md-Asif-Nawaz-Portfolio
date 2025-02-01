@@ -12,10 +12,10 @@ export const projects = [
     },
         {
         id: 1000,
-        title: "Recruitesy.",
+        title: "Recruitesy- Recruitment System",
         des: "Recruitesy is a Web application designed to streamline the recruitment process within an organization.",
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738384524/Recruitesy_wcajqd.png",
-       iconLists: ["/next.svg", "/ts.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738390759/logo-sm_hvbuwx.webp","/tail.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "/mongodb-seeklogo.svg", "icons8-express-js.svg"],
+       iconLists: ["/next.svg", "/ts.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738390759/logo-sm_hvbuwx.webp","/tail.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "/mongodb-seeklogo.svg"],
         link: "https://github.com/mdasifnawaz545/Recruitesy",
         liveLink: "https://recruitesy-git-main-md-asif-nawazs-projects.vercel.app/",
 
