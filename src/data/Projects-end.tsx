@@ -5,17 +5,17 @@ export const projects = [
         title: "Wonderlust - Listing Places & Hotels",
         des: "WonderLust is a Website where you can add a new listing of Places, Hotels, resturants & many more.",
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723879046/Screenshot_2023-11-14_193941_wpca9v.png",
-        iconLists: ["https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217991/html-5_fslkyr.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218002/css-3_iqi8kv.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217996/js_i4rg6e.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "icons8-express-js.svg","/mongodb-seeklogo.svg"],
+        iconLists: ["https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217991/html-5_fslkyr.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218002/css-3_iqi8kv.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217996/js_i4rg6e.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "icons8-express-js.svg","/MongoDB.svg"],
         link: "https://github.com/mdasifnawaz545/WonderLust",
         liveLink: "https://wonderlust-f7bu.onrender.com/",
 
     },
         {
         id: 1000,
-        title: "Recruitesy- Recruitment System",
+        title: "Recruitesy - Recruitment System",
         des: "Recruitesy is a Web application designed to streamline the recruitment process within an organization.",
-        img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738384524/Recruitesy_wcajqd.png",
-       iconLists: ["/next.svg", "/ts.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738390759/logo-sm_hvbuwx.webp","/tail.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "/mongodb-seeklogo.svg"],
+        img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738393392/Recruitesy_xgvrnk.png",
+       iconLists: ["/next.svg", "/ts.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738390759/logo-sm_hvbuwx.webp","/tail.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "/MongoDB.svg"],
         link: "https://github.com/mdasifnawaz545/Recruitesy",
         liveLink: "https://recruitesy-git-main-md-asif-nawazs-projects.vercel.app/",
 
@@ -25,7 +25,7 @@ export const projects = [
         title: "Realtime Feedback - AI Integration",
         des: "This Website offers a real-time feedback platform with an AI Integration.",
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723913072/WhatsApp_Image_2024-08-15_at_20.17.22_4e8de257_g70fkc.jpg",
-        iconLists: ["/next.svg","/ts.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738390759/logo-sm_hvbuwx.webp","/tail.svg",  "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "/mongodb-seeklogo.svg"],
+        iconLists: ["/next.svg","/ts.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738390759/logo-sm_hvbuwx.webp","/tail.svg",  "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "/MongoDB.svg"],
         link: "https://github.com/mdasifnawaz545/Realtime-Feedback-with-AI",
         liveLink: "https://realtime-feedback-md-asif-nawazs-projects.vercel.app/",
         
@@ -37,7 +37,7 @@ export const projects = [
         title: "ELabs Official Website",
         des: "We built the entire front-end and backend of the official website of elabs with the entire web team of elabs as a Lead.",
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723912751/Screenshot_2024-07-06_093229_tubvmq.png",
-        iconLists: ["/re.svg", "/tail.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217996/js_i4rg6e.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png","icons8-express-js.svg","/mongodb-seeklogo.svg"],
+        iconLists: ["/re.svg", "/tail.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217996/js_i4rg6e.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png","icons8-express-js.svg","/MongoDB.svg"],
         link: "https://github.com/mdasifnawaz545/E_Labs_Official_Website",
         liveLink: "https://e-labs-official-website.vercel.app/",
         
