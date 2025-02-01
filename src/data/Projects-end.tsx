@@ -17,7 +17,7 @@ export const projects = [
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738393392/Recruitesy_xgvrnk.png",
        iconLists: ["/next.svg", "/ts.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738390759/logo-sm_hvbuwx.webp","/tail.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "/MongoDB.svg"],
         link: "https://github.com/mdasifnawaz545/Recruitesy",
-        liveLink: "https://recruitesy-git-main-md-asif-nawazs-projects.vercel.app/",
+        liveLink: "https://recruitesy-md-asif-nawazs-projects.vercel.app/",
 
     },
     {
@@ -97,7 +97,7 @@ export const projects = [
     {
         id: 9,
         title: "Flipkart : Online Shopping App - Redesigned",
-        des: "This is an another version of the well know W-Commerce platform Flipkart.",
+        des: "This is an another version of the well know E-Commerce platform Flipkart.",
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723879060/Flipkart_y0r6yr.png",
         iconLists: ["https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217991/html-5_fslkyr.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218002/css-3_iqi8kv.png"],
         link: "https://github.com/mdasifnawaz545/Flipkart-Clone-New",
