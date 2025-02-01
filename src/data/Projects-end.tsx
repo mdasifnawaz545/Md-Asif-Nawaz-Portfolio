@@ -13,9 +13,9 @@ export const projects = [
         {
         id: 1000,
         title: "Recruitesy - Recruitment Management System",
-        des: "Recruitesy is a full-fledged web application designed to streamline the recruitment process within an organization.",
+        des: "Recruitesy is a Web application designed to streamline the recruitment process within an organization.",
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738384524/Recruitesy_wcajqd.png",
-       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "/mongodb-seeklogo.svg"],
+       iconLists: ["/next.svg", "/ts.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738390759/logo-sm_hvbuwx.webp","/tail.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "/mongodb-seeklogo.svg", "icons8-express-js.svg"],
         link: "https://github.com/mdasifnawaz545/Recruitesy",
         liveLink: "https://recruitesy-git-main-md-asif-nawazs-projects.vercel.app/",
 
@@ -25,7 +25,7 @@ export const projects = [
         title: "Realtime Feedback - AI Integration",
         des: "This Website offers a real-time feedback platform with an AI Integration.",
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723913072/WhatsApp_Image_2024-08-15_at_20.17.22_4e8de257_g70fkc.jpg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "/mongodb-seeklogo.svg"],
+        iconLists: ["/next.svg","/ts.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1738390759/logo-sm_hvbuwx.webp","/tail.svg",  "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "/mongodb-seeklogo.svg"],
         link: "https://github.com/mdasifnawaz545/Realtime-Feedback-with-AI",
         liveLink: "https://realtime-feedback-md-asif-nawazs-projects.vercel.app/",
         
@@ -35,7 +35,7 @@ export const projects = [
 
         id: 3,
         title: "ELabs Official Website",
-        des: "We built the entire front-end and backend of the official website of elabs with the entire web team of elabs .",
+        des: "We built the entire front-end and backend of the official website of elabs with the entire web team of elabs as a Lead.",
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723912751/Screenshot_2024-07-06_093229_tubvmq.png",
         iconLists: ["/re.svg", "/tail.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217996/js_i4rg6e.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png","icons8-express-js.svg","/mongodb-seeklogo.svg"],
         link: "https://github.com/mdasifnawaz545/E_Labs_Official_Website",
