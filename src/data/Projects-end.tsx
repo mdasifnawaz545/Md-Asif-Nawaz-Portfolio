@@ -7,7 +7,7 @@ export const projects = [
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723879046/Screenshot_2023-11-14_193941_wpca9v.png",
         iconLists: ["https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217991/html-5_fslkyr.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218002/css-3_iqi8kv.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217996/js_i4rg6e.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png", "icons8-express-js.svg","/MongoDB.svg"],
         link: "https://github.com/mdasifnawaz545/WonderLust",
-        liveLink: "https://wonderlust-f7bu.onrender.com/",
+        liveLink: "https://wonderlust-iac3.onrender.com/",
 
     },
         {
