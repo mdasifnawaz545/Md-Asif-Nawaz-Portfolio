@@ -11,7 +11,7 @@ function Contact() {
             <h1 className='text-center text-3xl lg:5xl'>Want a Cup of Coeffee ?</h1>
         </div>
         <div></div> */}
-            <div className='text-blue-100 '><p className='text-md font-light pt-4 lg:pt-0'>Copyright &copy;&nbsp;2024 Md Asif Nawaz </p></div>
+            <div className='text-blue-100 '><p className='text-md font-light pt-4 lg:pt-0'>Copyright &copy;&nbsp;2025 Md Asif Nawaz </p></div>
             <div className='flex items-center justify-center -mt-2 lg:mt-0 gap-4'>
                 <a href="https://www.linkedin.com/in/mdasifnawaz/">
 
