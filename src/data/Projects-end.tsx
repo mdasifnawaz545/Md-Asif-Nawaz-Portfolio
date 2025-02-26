@@ -66,7 +66,7 @@ export const projects = [
         id: 6,
         title: "Todo - Local Storage & Context API",
         des: "It is slightly a different kind of todo as it uses the local storage of your browser in order to store the todo.",
-        img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723879092/Screenshot_2024-06-20_093158_dkbhn3.png",
+        img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1740579092/Screenshot_361_zknken.png",
         iconLists: ["/re.svg", "/tail.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217996/js_i4rg6e.png"],
         link: "https://github.com/mdasifnawaz545/Todo-React_LocalStorage",
         liveLink: "https://main--jolly-dragon-fc3a9f.netlify.app/",
