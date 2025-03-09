@@ -63,7 +63,7 @@ export const projects = [
         
     },
     {
-        id: 6,
+        id: 6,cd 
         title: "Todo - Local Storage & Context API",
         des: "It is slightly a different kind of todo as it uses the local storage of your browser in order to store the todo.",
         img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1740579092/Screenshot_361_zknken.png",
