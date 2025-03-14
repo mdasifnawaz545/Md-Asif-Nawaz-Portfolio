@@ -49,3 +49,63 @@ I'm a *Full Stack Developer and a Computer Science Engineering Enthusiast*, pass
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat&logo=vercel&logoColor=FFFFFF)
 
 ---
+
+## 🔥 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mdasifnawaz545&show_icons=true&theme=radical" height="180px" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mdasifnawaz545&theme=radical" height="180px" />
+</p>
+
+---
+
+## 🏆 GitHub Achievements
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mdasifnawaz545&theme=radical&no-bg=true&margin-w=15&margin-h=15" />
+</p>
+
+---
+
+## 📌 Featured Projects
+
+### [🚀 Recruitesy](https://github.com/mdasifnawaz545/Recruitesy)
+A web application to streamline candidate recruitment, replacing Excel-based tracking with a modern, authenticated system.
+
+- *Tech Stack:* Next.js, TypeScript, MongoDB, NextAuth, TailwindCSS, Node.js, Express, Docker.
+- *Live Demo:* [Recruitesy](https://recruitesyapp.vercel.app/)
+
+### [💬 Realtime Feedback](https://github.com/mdasifnawaz545/Realtime-Feedback)
+A platform that allows users to receive anonymous feedback in real time.
+
+- *Tech Stack:* Next.js, TypeScript, MongoDB (Aggregation Pipeline), NextAuth, TailwindCSS, Resend (OTP Verification), OpenAI API.
+- *Live Demo:* [Realtime Feedback](https://your-live-demo-link.com)
+
+---
+
+## 📊 My GitHub Activity
+
+<!--START_SECTION:activity-->
+1. 🎉 Merged PR [#25](https://github.com/mdasifnawaz545/Recruitesy/pull/25) in Recruitesy
+2. 💬 Commented on issue [#10](https://github.com/mdasifnawaz545/Realtime-Feedback/issues/10)
+3. 🚀 Pushed new commit to main in Recruitesy
+<!--END_SECTION:activity-->
+
+---
+
+## 📬 Connect with Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/md-asif-nawaz-1832901a2"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://twitter.com/mdasifnawaz545"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" /></a>
+  <a href="https://www.instagram.com/mdasifnawaz/"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white" /></a>
+  <a href="mailto:mdasifnawaz545@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+</p>
+
+---
+
+## 🎨 Profile Views
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=mdasifnawaz545&color=brightgreen&style=flat-square" />
+</p>
