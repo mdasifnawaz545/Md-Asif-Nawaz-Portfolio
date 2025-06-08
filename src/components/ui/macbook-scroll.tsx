@@ -31,11 +31,13 @@ export const MacbookScroll = ({
   showGradient,
   title,
   badge,
+  className,
 }: {
   src?: string;
   showGradient?: boolean;
   title?: string | React.ReactNode;
   badge?: React.ReactNode;
+  className?:string
 }) => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -69,7 +71,7 @@ export const MacbookScroll = ({
   return (
     <div
       ref={ref}
-      className="min-h-[120vh] md:min-h-[150vh] lg:min-h-[250vh] flex flex-col items-center py-0 md:py-4 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100 scale-[0.6] sm:scale-50"
+      className={` ${className} flex flex-col items-center py-0 md:py-4 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100 scale-[0.6] sm:scale-50`}
     >
       <motion.h2
         style={{

@@ -24,6 +24,7 @@ export function MacbookScrollDemo({imgSrc,title,badge}:props) {
           </Link>
         }
         src=""
+        className="h-[120vh] md:h-[200vh] lg:h-[250vh] xl:h-[300vh] 2xl:h-[325vh] 3xl:max-h-[350vh]"
         showGradient={false}
       />
     </div>

@@ -1,4 +1,4 @@
-import Image from "next/image";
+'use client'
 import Hero from "../components/Hero";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import TechStack from "@/components/TechStack";
@@ -10,12 +10,14 @@ import { MdOutlinePerson3, MdOutlineWorkOutline } from "react-icons/md";
 import { HiOutlineSupport } from "react-icons/hi";
 import Education from "@/components/Education";
 import Projects from "@/components/Projects";
-import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { InfiniteMovingCardsDemo } from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Experiance from "@/components/Experiance";
+import { ContainerScroll } from "@/components/ui/container-scroll-animation";
+import { useMediaQuery } from 'react-responsive';
 
 export default function Home() {
+  const isMobileOrTablet = useMediaQuery({ maxWidth: 768 }) // If the media screen is upto 1024px then it will be true.
   return (
     <main className="relative bg-[#000] flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-05">
       <div className="max-w-7xl w-full" >
@@ -24,13 +26,15 @@ export default function Home() {
           <Hero />
         </section>
         <section id="about">
-          <MacbookScrollDemo imgSrc={""} title="See In your Laptop not mine...!" badge={<FaA />} />
-        </section >
+          {
+          (isMobileOrTablet)?(<MacbookScrollDemo imgSrc={""} title="See In your Laptop not mine...!" badge={<FaA />} />):(<ContainerScroll titleComponent="Look At Your Screen Not Mine" />)
+}
+        </section>
         <section id="education">
           <Education />
         </section>
         <section id="experiance">
-          <Experiance/>
+          <Experiance />
         </section>
         <section id="projects">
           <Projects />
@@ -45,7 +49,7 @@ export default function Home() {
         </section>
         <section id="contact">
           {/* <Form /> */}
-          <Contact/>
+          <Contact />
         </section>
       </div>
     </main>
