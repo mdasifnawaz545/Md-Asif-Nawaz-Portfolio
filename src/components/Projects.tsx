@@ -15,8 +15,8 @@ type project = {
     img: string,
     iconLists: string[],
     link: string,
-    liveLink:string,
-    
+    liveLink: string,
+
 }
 
 type projects = project[]
@@ -25,7 +25,7 @@ function Projects(): any {
     return (
         <div >
             <div className='w-full text-5xl text-blue-100 uppercase text-center p-4 md:6xl lg:7xl'>
-            <CoverDemo normalText='Have a Look into my ' animateText='Projects' />
+                <CoverDemo normalText='Have a Look into my ' animateText='Projects' />
             </div>
             <div className='w-full  my-4 md:my-6 lg:my-8  flex items-center justify-center flex-wrap gap-2'>
                 {
@@ -45,8 +45,8 @@ function Projects(): any {
                                             {project.des}
                                         </span>
                                     </div>
-                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 relative
-                                overflow-hidden to-blue-500">
+                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-r from-indigo-900 to-neutral-900 relative
+                                overflow-hidden">
                                         <img className='absolute w-full h-full' src={project.img}
 
                                             alt='' />
@@ -59,13 +59,13 @@ function Projects(): any {
                                                 ))
                                             }
                                         </div>
-                                        
+
                                         <div className='flex justify-center items-center gap-2'>Check Live<span className="relative flex h-3 w-3">
-                                       
+
                                             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
                                             <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
                                         </span>
-                                        
+
                                         </div>
 
                                     </div>
