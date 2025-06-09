@@ -36,10 +36,10 @@ export const projects = [
         id: 3,
         title: "ELabs Official Website",
         des: "We built the entire front-end and backend of the official website of elabs with the entire web team of elabs as a Lead.",
-        img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1749433444/Screenshot_from_2025-06-09_07-12-02_cebwpw.png",
+        img: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1723912751/Screenshot_2024-07-06_093229_tubvmq.png",
         iconLists: ["/re.svg", "/tail.svg", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724217996/js_i4rg6e.png", "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724218003/node-js_rrypin.png","icons8-express-js.svg","/MongoDB.svg"],
-        link: "https://elabskiit.in/",
-        liveLink: "https://e-labs-official-website.vercel.app/",
+        link: "https://github.com/mdasifnawaz545/E_Labs_Official_Website",
+        liveLink: "https://elabskiit.in/",
         
     },
     {
