@@ -25,7 +25,7 @@ export const educationDetails = [{
   college: "Woodbine Modern School",
   course: "Matriculation",
   branch: "Matriculation",
-  year: "2010-2019",
+  year: "2017-2019",
   logo: "https://res.cloudinary.com/dpqdgcipi/image/upload/v1724141416/FB_IMG_1724140917125-removebg-preview_treytf.png"
 },]
 
