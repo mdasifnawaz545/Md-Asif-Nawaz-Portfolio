@@ -1,10 +1,9 @@
 'use client'
-import Hero from "../components/Hero";
+import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import TechStack from "@/components/TechStack";
-import { FaA, FaAddressBook, FaUpwork } from "react-icons/fa6";
+import { FaA } from "react-icons/fa6";
 import { MacbookScrollDemo } from "@/components/ui/MackbookPro";
-import { FaHome } from "react-icons/fa";
 import { RiHomeSmile2Line } from "react-icons/ri";
 import { MdOutlinePerson3, MdOutlineWorkOutline } from "react-icons/md";
 import { HiOutlineSupport } from "react-icons/hi";
@@ -17,7 +16,7 @@ import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 import { useMediaQuery } from 'react-responsive';
 
 export default function Home() {
-  const isMobileOrTablet = useMediaQuery({ maxWidth: 768 }) // If the media screen is upto 1024px then it will be true.
+  const isMobile = useMediaQuery({ maxWidth: 768 }) // If the media screen is upto 768px then it will be true.
   return (
     <main className="relative bg-[#000] flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-05">
       <div className="max-w-7xl w-full" >
@@ -27,8 +26,8 @@ export default function Home() {
         </section>
         <section id="about">
           {
-          (isMobileOrTablet)?(<MacbookScrollDemo imgSrc={""} title="See In your Laptop not mine...!" badge={<FaA />} />):(<ContainerScroll titleComponent="Look At Your Screen Not Mine" />)
-}
+            (isMobile) ? (<MacbookScrollDemo imgSrc={""} title="See In your Laptop not mine...!" badge={<FaA />} />) : (<ContainerScroll titleComponent="Look At Your Screen Not Mine" />)
+          }
         </section>
         <section id="education">
           <Education />
@@ -48,7 +47,6 @@ export default function Home() {
           </div>
         </section>
         <section id="contact">
-          {/* <Form /> */}
           <Contact />
         </section>
       </div>

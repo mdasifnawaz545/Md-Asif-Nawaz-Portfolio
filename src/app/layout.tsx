@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import  {homePageMetaData}  from "@/data/metadata";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Md Asif Nawaz",
-  description: "A one way solution to all your problem in a modern and minimalistic way.",
-};
+// Metadata
+export const metadata: Metadata = homePageMetaData;
 
 export default function RootLayout({
   children,
@@ -16,6 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="manifest" href="/site.webmanifest"/>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
