@@ -44,3 +44,4 @@ export const homePageMetaData = {
   metadataBase: new URL("https://mdasifnawaz-portfolio.vercel.app/")
   // It is the base url of metadata used to resolve the realtive path of the url mentioned in the metadat.
 }
+ //End of all the metadata
